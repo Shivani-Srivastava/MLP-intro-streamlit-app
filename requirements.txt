@@ -8,3 +8,8 @@ mglearn
 pyngrok
 opencv_python
 Pillow
+aiortc==1.2.0
+av==8.0.3
+pydub==0.25.1
+streamlit_webrtc==0.22.1
+typing_extensions==3.10.0.0

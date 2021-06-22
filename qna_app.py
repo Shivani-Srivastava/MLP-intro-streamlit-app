@@ -7,7 +7,7 @@ st.text('Ask questions relevant to Earnings call')
 
 @st.cache(allow_output_mutation=True)
 def load_model():
-    model = joblib.load('/content/models/bert_qa_custom.joblib')
+    model = joblib.load('bert_qa_custom.joblib')
     return model
 
 with st.spinner('Loading Model Into Memory...'):

@@ -1,0 +1,6 @@
+cdqa
+streamlit
+pyngrok
+pandas
+gdown
+joblib

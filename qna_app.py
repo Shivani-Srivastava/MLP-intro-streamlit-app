@@ -19,7 +19,7 @@ def main():
   with st.spinner('Loading Model Into Memory...'):
     model = load_model()
   text = st.text_input("Enter your questions here..")
-  n_rtn = st.sidebar.slider("Number of returned predictions",1,6,1)
+  n_rtn = st.sidebar.slider("Number of returned predictions",1,10,1)
   st.markdown('Data used for model training')
   st.write(load_data())
   if text:

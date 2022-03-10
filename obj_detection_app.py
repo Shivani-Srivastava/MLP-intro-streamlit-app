@@ -17,7 +17,7 @@ from PIL import Image
 def obj_detection(my_img):
     st.set_option('deprecation.showPyplotGlobalUse', False)
 
-    column1, column2 = st.beta_columns(2)
+    column1, column2 = st.columns(2)
 
     column1.subheader("Input image")
     st.text("")
